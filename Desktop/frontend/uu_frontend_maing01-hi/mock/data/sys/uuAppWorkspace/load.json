@@ -1,0 +1,97 @@
+{
+  "data": {
+    "awid": "4ef6a7b01b5942ecbfb925b249af987f",
+    "id": "5c9103df323cc0000c303009",
+    "sys": {
+      "cts": "2019-03-19T14:59:43.847Z",
+      "mts": "2020-04-16T13:55:18.896Z",
+      "rev": 4
+    },
+    "state": "active",
+    "name": "Demo uuJokes",
+    "categoryList": [
+      {
+        "name": "Superbowl",
+        "icon": "mdi-label",
+        "awid": "4ef6a7b01b5942ecbfb925b249af987f",
+        "sys": {
+          "cts": "2019-10-29T11:27:09.671Z",
+          "mts": "2020-06-12T13:39:48.816Z",
+          "rev": 5
+        },
+        "id": "5db8220d008c44000d6997b2"
+      },
+      {
+        "name": "Personální",
+        "icon": "mdi-account",
+        "awid": "4ef6a7b01b5942ecbfb925b249af987f",
+        "sys": {
+          "cts": "2019-10-24T12:56:58.994Z",
+          "mts": "2020-01-13T15:21:08.706Z",
+          "rev": 3
+        },
+        "id": "5db19f9b008c44000d6995d5"
+      },
+      {
+        "name": "Kamenaky",
+        "icon": "mdi-label",
+        "awid": "4ef6a7b01b5942ecbfb925b249af987f",
+        "sys": {
+          "cts": "2020-06-09T09:30:32.491Z",
+          "mts": "2020-06-09T09:30:32.491Z",
+          "rev": 0
+        },
+        "id": "5edf56b81d5ce800255e70f7"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "mdi-language-javascript",
+        "awid": "4ef6a7b01b5942ecbfb925b249af987f",
+        "sys": {
+          "cts": "2019-03-20T12:53:21.237Z",
+          "mts": "2019-09-18T10:08:32.212Z",
+          "rev": 1
+        },
+        "id": "5c9237c1323cc0000c30302e"
+      },
+      {
+        "name": "IT",
+        "icon": "mdi-label",
+        "awid": "4ef6a7b01b5942ecbfb925b249af987f",
+        "sys": {
+          "cts": "2019-03-20T12:52:48.426Z",
+          "mts": "2020-03-10T15:55:26.131Z",
+          "rev": 5
+        },
+        "id": "5c9237a0323cc0000c303028"
+      },
+      {
+        "name": "Food",
+        "icon": "mdi-account-arrow-right",
+        "awid": "4ef6a7b01b5942ecbfb925b249af987f",
+        "sys": {
+          "cts": "2019-06-03T15:04:19.531Z",
+          "mts": "2020-06-10T10:59:47.659Z",
+          "rev": 3
+        },
+        "id": "5cf536f3323cc0000c3035cf"
+      },
+      {
+        "name": "Family",
+        "icon": "mdi-account-arrow-left-outline",
+        "awid": "4ef6a7b01b5942ecbfb925b249af987f",
+        "sys": {
+          "cts": "2019-05-16T14:27:21.595Z",
+          "mts": "2020-06-13T16:50:02.036Z",
+          "rev": 11
+        },
+        "id": "5cdd7349323cc0000c30327e"
+      }
+    ]
+  },
+  "sysData": {
+    "profileData": {
+      "uuIdentityProfileList": ["Authorities", "Executives", "Readers"]
+    }
+  }
+}
