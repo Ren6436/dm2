@@ -13,7 +13,6 @@ const originalGet = Client.get;
 Client.get = async (url, dtoIn, clientOpts) => {
   if (url.includes("sys/uuAppWorkspace/load")) {
     const mockUrl = mockBaseUri + "sys/uuAppWorkspace/load.json";
-    console.log(mockUrl)
     const response = await fetch(mockUrl);
     return { ...response, data: await response.json() };
   } else {
