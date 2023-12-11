@@ -13,6 +13,17 @@
     "rightsError": "You do not have sufficient rights to display this component.",
     "btNotConnected": "The application is not connected to a Business Territory."
   },
+  "Menu": {
+    "home": "Welcom",
+    "jokes": "Jokes",
+    "about": "About app"
+  },  
+  "UuFrontend.Bricks.Joke.ListView": {
+    "loadNext": "Load next jokes"
+  },
+  "UuFrontend.Bricks.Joke.Tile": {
+    "averageRating": "Average rating"
+  },
   "Home": {
     "welcome": "Welcome",
     "intro": "<uu5string/>This template consist of prepared client and server side. Shown components demonstrate possibilities and way of using. For application developing purposes they are suitable for modifying, copying and deleting. More about uuApp Structure see documentation&nbsp; <Uu5Elements.Link href=\"https://uuapp.plus4u.net/uu-bookkit-maing01/e884539c8511447a977c7ff070e7f2cf/book/page?code=stepByStepApp\" target=\"_blank\">uuAppDevKit</Uu5Elements.Link>.",

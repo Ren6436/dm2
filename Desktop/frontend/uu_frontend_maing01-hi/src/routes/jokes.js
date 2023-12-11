@@ -28,8 +28,8 @@ let Jokes = createVisualComponent({
     const systemDataObject = useSystemData();
     const { identity } = useSession();
 
-    const profileList = systemDataObject.data.profileData.uuIdentityProfileList;
-    const canCreate = profileList.includes("Authorities") || profileList.includes("Executives");
+    const profileList = systemDataObject.data?.profileData?.uuIdentityProfileList;
+    const canCreate = profileList?.includes("Authorities") || profileList?.includes("Executives");
     //@@viewOff:private
 
     //@@viewOn:render
@@ -38,24 +38,22 @@ let Jokes = createVisualComponent({
         <RouteBar />
         <ListProvider>
           {(jokeDataList) => (
-            <RouteController routeDataObject={jokeDataList}>
               <div className={Css.container()}>
                 {canCreate && (
                   <CreateView
                     jokeDataList={jokeDataList}
-                    categoryList={subAppDataObject.data.categoryList}
+                    categoryList={subAppDataObject?.data?.categoryList}
                     className={Css.createView()}
                   />
                 )}
                 <ListView
                   jokeDataList={jokeDataList}
-                  categoryList={subAppDataObject.data.categoryList}
+                  categoryList={subAppDataObject?.data?.categoryList}
                   profileList={profileList}
                   identity={identity}
                 />
                 <ListTitle jokeList={jokeDataList.data} />
               </div>
-            </RouteController>
           )}
         </ListProvider>
       </>

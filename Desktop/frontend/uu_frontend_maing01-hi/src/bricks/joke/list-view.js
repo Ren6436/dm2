@@ -108,11 +108,11 @@ const ListView = createVisualComponent({
 
     //@@viewOn:render
     const attrs = Utils.VisualComponent.getAttrs(props);
-    const jokeList = props.jokeDataList.data.filter((item) => item !== undefined);
+    const jokeList = props.jokeDataList?.data?.filter((item) => item !== undefined);
 
     return (
       <div {...attrs}>
-        {jokeList.map((item) => (
+        {jokeList?.map((item) => (
           <Tile
             key={item.data.id}
             jokeDataObject={item}

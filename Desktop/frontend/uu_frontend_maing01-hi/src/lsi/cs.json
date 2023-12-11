@@ -13,6 +13,17 @@
     "rightsError": "K zobrazení komponenty nemáte dostatečná práva.",
     "btNotConnected": "Aplikace není napojená na Business Territory."
   },
+  "Menu": {
+    "home": "Vítejte",
+    "jokes": "Vtipy",
+    "about": "O aplikaci"
+  },
+  "UuFrontend.Bricks.Joke.ListView": {
+    "loadNext": "Nahrát další vtipy"
+  },
+  "UuFrontend.Bricks.Joke.Tile": {
+    "averageRating": "Průměrné hodnocení"
+  },
   "Home": {
     "welcome": "Vítejte",
     "intro": "<uu5string/>Tato šablona obsahuje připravenou klientskou a serverovou část. Jednotlivé komponety, které jsou zde zobrazeny, jsou určeny k tomu, aby demonstrovaly možnosti a způsob použití. Je vhodné je upravit, zkopírovat či smazat pro potřeby vyvíjené aplikace. Více o struktuře uuApp se dozvíte v dokumetaci viz&nbsp; <Uu5Elements.Link href=\"https://uuapp.plus4u.net/uu-bookkit-maing01/e884539c8511447a977c7ff070e7f2cf/book\" target=\"_blank\" >uuAppDevKit</Uu5Elements.Link>.",
@@ -28,42 +39,5 @@
     "uuBtLocationUriInfo": "Uri uuBt umístění kam bude založen AWSC",
     "nameLabel": "Název",
     "initialize": "Inicializovat"
-  },
-  "UuJokes.Bricks.Joke.CreateForm": {
-    "name": "Název",
-    "text": "Text",
-    "cancel": "Zrušit",
-    "submit": "Vytvořit vtip"
-  },
-  "UuJokes.Bricks.Joke.CreateView": {
-    "createJoke": "Přidat vtip",
-    "createFail": "Vytvoření vtipu selhalo!",
-    "createDone": "Vtip {0} byl vytvořen."
-  },
-  "UuJokes.Bricks.Joke.DetailModal": {
-    "oneVotes": "{0} hlas",
-    "fewVotes": "{0} hlasy",
-    "otherVotes": "{0} hlasů",
-    "averageRating": "Hodnocení: {0} / 5",
-    "update": "Upravit",
-    "delete": "Smazat"
-  },
-  "UuJokes.Bricks.Joke.ListView": {
-    "deleteDone": "Vtip {0} byl smazán.",
-    "deleteFail": "Smazání vtipu selhalo!",
-    "updateFail": "Upravení vtipu selhalo!",
-    "pageLoadFail": "Načítání vtipů selhalo!",
-    "loadNext": "Načíst další 3 vtipy"
-  },
-  "UuJokes.Bricks.Joke.Tile": {
-    "averageRating": "Průměrné hodnocení: {0} / 5",
-    "deleteTip": "Smazat",
-    "updateTip": "Upravit"
-  },
-  "UuJokes.Core.RouteBar": {
-    "title": "Lekce 14 - Modal - {0}",
-    "home": "Vítejte",
-    "jokes": "Vtipy",
-    "about": "O aplikaci"
   }
 }

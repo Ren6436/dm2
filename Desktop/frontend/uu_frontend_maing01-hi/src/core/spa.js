@@ -1,5 +1,6 @@
 //@@viewOn:imports
 import { createVisualComponent, Utils, Environment } from "uu5g05";
+import Uu5Elements from "uu5g05-elements";
 import Plus4U5 from "uu_plus4u5g02";
 import Plus4U5App from "uu_plus4u5g02-app";
 
@@ -20,7 +21,11 @@ const ROUTE_MAP = {
   about: (props) => <About {...props} />,
   "sys/uuAppWorkspace/initUve": (props) => <InitAppWorkspace {...props} />,
   controlPanel: (props) => <ControlPanel {...props} />,
-  "*": { redirect: "home" },
+  "*": () => (
+    <Uu5Elements.Text category="story" segment="heading" type="h1">
+      Not Found
+    </Uu5Elements.Text>
+  ),
 };
 //@@viewOff:constants
 

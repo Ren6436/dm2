@@ -26,10 +26,10 @@ const ListTitle = createComponent({
     /* Title */
     useEffect(() => {
       const originalTitle = document.title;
-      document.title = `${originalTitle} - ${props.jokeList.length} jokes`;
+      document.title = `${originalTitle} - ${props.jokeList?.length || 0} jokes`;
 
       return () => (document.title = originalTitle);
-    }, [props.jokeList.length]);
+    }, [props.jokeList?.length]);
     //@@viewOff:private
 
     //@@viewOn:render
