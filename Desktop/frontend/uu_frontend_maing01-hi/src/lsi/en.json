@@ -1,7 +1,7 @@
 {
-  "appName": "Application uuJokes",
+  "appName": "Application shopping list",
   "About": {
-    "header": "About application uuJokes",
+    "header": "About application shopping list",
     "creatorsHeader": "Application creators",
     "termsOfUse": "Terms of use"
   },
@@ -15,14 +15,33 @@
   },
   "Menu": {
     "home": "Welcom",
-    "jokes": "Jokes",
+    "jokes": "Shopping list",
     "about": "About app"
   },  
   "UuFrontend.Bricks.Joke.ListView": {
-    "loadNext": "Load next jokes"
+    "loadNext": "Load next shopping list"
+  },
+  "UuJokes.Bricks.Joke.CreateForm": {
+    "name": "Name",
+    "text": "Text",
+    "cancel": "Cancel",
+    "submit": "Create joke"
+  },
+  "UuJokes.Bricks.Joke.CreateView": {
+    "createJoke": "Add joke",
+    "createFail": "Joke creation failed!",
+    "createDone": "Joke {0} has been created."
+  },
+  "UuJokes.Bricks.Joke.DetailModal": {
+    "oneVotes": "{0} vote",
+    "fewVotes": "{0} votes",
+    "otherVotes": "{0} votes",
+    "averageRating": "Rating: {0} / 5",
+    "update": "Update",
+    "delete": "Delete"
   },
   "UuFrontend.Bricks.Joke.Tile": {
-    "averageRating": "Average rating"
+    "averageRating": "Subscribes"
   },
   "Home": {
     "welcome": "Welcome",
@@ -44,37 +63,37 @@
     "name": "Name",
     "text": "Text",
     "cancel": "Cancel",
-    "submit": "Create joke"
+    "submit": "Create shopping list"
   },
   "UuJokes.Bricks.Joke.CreateView": {
-    "createJoke": "Add joke",
-    "createFail": "Joke creation failed!",
-    "createDone": "Joke {0} has been created."
+    "createJoke": "Add shopping list",
+    "createFail": "Shopping list creation failed!",
+    "createDone": "Shopping list {0} has been created."
   },
   "UuJokes.Bricks.Joke.DetailModal": {
     "oneVotes": "{0} vote",
     "fewVotes": "{0} votes",
     "otherVotes": "{0} votes",
-    "averageRating": "Rating: {0} / 5",
+    "averageRating": "Subscribes: {0} / 5",
     "update": "Update",
     "delete": "Delete"
   },
   "UuJokes.Bricks.Joke.ListView": {
-    "deleteDone": "The joke {0} has been deleted.",
-    "deleteFail": "Joke delete failed!",
-    "updateFail": "Joke update failed!",
-    "pageLoadFail": "Jokes loading failed!",
-    "loadNext": "Load next 3 jokes"
+    "deleteDone": "The shopping list {0} has been deleted.",
+    "deleteFail": "Shopping list delete failed!",
+    "updateFail": "Shopping list update failed!",
+    "pageLoadFail": "Shopping list loading failed!",
+    "loadNext": "Load next 3 shopping list"
   },
   "UuJokes.Bricks.Joke.Tile": {
-    "averageRating": "Average rating: {0} / 5",
+    "averageRating": "Subscribes: {0} / 5",
     "deleteTip": "Delete",
     "updateTip": "Update"
   },
   "UuJokes.Core.RouteBar": {
     "title": "Lesson 14 - Modal - {0}",
     "home": "Welcome",
-    "jokes": "Jokes",
+    "jokes": "Shopping list",
     "about": "About Application"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "appName": "Aplikace uuJokes",
+  "appName": "Aplikace Shopping List",
   "About": {
-    "header": "O aplikaci uuJokes",
+    "header": "O aplikaci Shopping List",
     "creatorsHeader": "Tvůrci aplikace",
     "termsOfUse": "Podmínky užívání"
   },
@@ -15,14 +15,30 @@
   },
   "Menu": {
     "home": "Vítejte",
-    "jokes": "Vtipy",
+    "jokes": "Nakupni seznam",
     "about": "O aplikaci"
   },
-  "UuFrontend.Bricks.Joke.ListView": {
-    "loadNext": "Nahrát další vtipy"
+  "UuJokes.Bricks.Joke.CreateForm": {
+    "name": "Název",
+    "text": "Text",
+    "cancel": "Zrušit",
+    "submit": "Vytvořit vtip"
+  },
+  "UuJokes.Bricks.Joke.CreateView": {
+    "createJoke": "Přidat vtip",
+    "createFail": "Vytvoření vtipu selhalo!",
+    "createDone": "Vtip {0} byl vytvořen."
+  },
+  "UuJokes.Bricks.Joke.DetailModal": {
+    "oneVotes": "{0} hlas",
+    "fewVotes": "{0} hlasy",
+    "otherVotes": "{0} hlasů",
+    "averageRating": "Hodnocení: {0} / 5",
+    "update": "Upravit",
+    "delete": "Smazat"
   },
   "UuFrontend.Bricks.Joke.Tile": {
-    "averageRating": "Průměrné hodnocení"
+    "averageRating": "Subscribes"
   },
   "Home": {
     "welcome": "Vítejte",
@@ -39,5 +55,13 @@
     "uuBtLocationUriInfo": "Uri uuBt umístění kam bude založen AWSC",
     "nameLabel": "Název",
     "initialize": "Inicializovat"
-  }
-}
+  },
+    "otherVotes": {
+      "zero": "0 People",
+      "one": "1 peopls",
+      "two": "2 peopls",
+      "few": "{count} peopls",
+      "many": "{count} peopls",
+      "other": "{count} Votes"
+    }
+  }  
